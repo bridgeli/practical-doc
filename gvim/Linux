@@ -1,0 +1,7 @@
+查询关键字前后日志情况：
+
+1. cat -n /path/file | grep 'keyword'
+
+得到行号：nu
+
+2. cat -n /path/file |tail -n +nu | head -n 20
